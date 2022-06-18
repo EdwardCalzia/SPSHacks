@@ -1,3 +1,3 @@
 # SPSHacks
 
-a hackathon
+A hackathon
