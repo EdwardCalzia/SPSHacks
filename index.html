@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <link rel="icon" type="image/png" href="Images\avatar.png">
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   </head>
 
   <body class="pt-20">
@@ -20,7 +21,7 @@
 
     <nav id="nav-bar" class="nav flex bg-[#0C0B31] absolute flex-wrap items-center justify-between md:rounded-none md:shadow-none shadow-sm w-full top-0 px-8">
         <div class="h-24 text-lg font-semibold flex flex-no-shrink tgr items-center mr-6 py-3">
-          <a class="text-blue-200" href="index.html">SPSHacks</a>
+          <a class="text-blue-200" href="">SPSHacks</a>
         </div>
 
         <input class="menu-btn hidden" type="checkbox" id="menu-btn">
@@ -29,7 +30,7 @@
         </label>  
         <ul class="menu border-none flex justify-end list-reset m-0 w-full md:w-auto">
           <li class="border-none">
-            <a href="index.html" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-sky-400">Home</a>
+            <a href="" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-sky-400">Home</a>
           </li>
 
           <li class="border-none">
@@ -44,18 +45,19 @@
             <a href="#schedule" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-sky-400">Schedule</a>
           </li>
 
+          <!--
           <li class="border-none">
             <a href="#projects" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-sky-400">Projects</a>
           </li>
 
           <li class="border-none">
             <a href="#judges" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-sky-400">Judges</a>
-          </li>
+          </li> -->
         </ul>
 
         <ul class="menu border-none flex justify-end list-reset m-0 w-full md:w-auto">
           <li class="border-none">
-            <a href="https://forms.gle/isj9AUDTWPJQf3V68" class="block md:inline-block px-4 py-2 bg-blue-400 hover:opacity-90 transition duration-100 ease-in my-1 text-center md:text-justify rounded-[50px] text-md no-underline text-black font-medium">Register</a>
+            <a href="https://forms.gle/isj9AUDTWPJQf3V68" target="_blank" class="block md:inline-block px-4 py-2 bg-blue-400 hover:opacity-90 transition duration-100 ease-in my-1 text-center md:text-justify rounded-[50px] text-md no-underline text-black font-medium">Register</a>
           </li>
         </ul>
     </nav>
@@ -64,7 +66,7 @@
       <div class="max-w-screen-lg mx-auto px-5 py-12 items-center">
         <div class="items-center text-center mb-16 lg:mb-0">
           <div class="justify-center flex flex-wrap">
-            <img class="w-[220px] h-[220px]" src="Untitled design (2).png" alt=""></img>
+            <img class="w-[220px] h-[220px]" src="assets/icon.png" alt=""></img>
           </div>
           <h1 class="pt-6 mt-6 text-5xl sm:text-6xl lg:text-7xl text-white mb-4 font-bold tracking-tight ">SPSHacks</h1>
           <h1 class="pt-6 text-3xl sm:text-6xl lg:text-4xl text-blue-400 mb-20 pb-10 inline">27th June - 1st July 2022</h1>
@@ -80,7 +82,7 @@
             <h2 class="text-3xl font-bold sm:text-4xl">About</h2>
       
             <p class="mt-4 text-gray-300">
-              The goal is to create a functioning software or hardware project in 5 days.
+              You have 5 days to build a software or hardware project (or both)
             </p>
           </div>
       
@@ -111,7 +113,7 @@
               <h3 class="mt-4 text-xl font-bold text-white">Where</h3>
       
               <p class="mt-1 text-sm text-gray-300">
-                St Paul's School (Lonsdale Rd, London SW13 9JT)
+                St Paul's School
               </p>
             </a>
       
@@ -125,7 +127,7 @@
               <h3 class="mt-4 text-xl font-bold text-white">Who</h3>
       
               <p class="mt-1 text-sm text-gray-300">
-                Any students currently going to St Paul's School, or a recent graduate of St Paul's School are welcome to participate!
+                SPS students (any years)
               </p>
             </a>
       
@@ -139,7 +141,7 @@
               <h3 class="mt-4 text-xl font-bold text-white">What</h3>
       
               <p class="mt-1 text-sm text-gray-300">
-                In order to register for the hackathon please fill out the google form and join the discord
+                In order to register for the hackathon please fill out the Google form and join the Discord
               </p>
             </a>
       
@@ -168,7 +170,7 @@
               <h3 class="mt-4 text-xl font-bold text-white">Theme</h3>
       
               <p class="mt-1 text-sm text-gray-300">
-                The theme of the hackathon will be announced Saturday 25th June 2022.
+                The theme of the hackathon will be announced on Saturday 25th June 2022
               </p>
             </a>
             
@@ -215,7 +217,7 @@
                 </summary>
           
                 <p class="mt-4 leading-relaxed text-white">
-                  A hackathon is an event where a large number of people come together to create practical solutions to real-world problems using software or hardware. These events can be in person or virtual, and can be a great opportunity to connect with others with a similar passion.
+                  A hackathon is an event where people come together to create practical solutions to real-world problems using software or hardware. These events can be in person or virtual, and can be a great opportunity to connect with other builders and developers.
 
                 </p>
               </details>
@@ -262,50 +264,6 @@
                   You can form a team of up to 5 people.
                 </p>
               </details>
-          
-              <details class="py-8 group">
-                <summary class="flex items-center justify-between cursor-pointer">
-                  <h5 class="text-lg font-medium text-sky-400">
-                    Who can attend?
-                  </h5>
-          
-                  <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-          
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                  </span>
-                </summary>
-          
-                <p class="mt-4 leading-relaxed text-white">
-                  Anyone who is a current at St Paul's School or a recent graduate of St Paul's School is eligible to attend.
-                </p>
-              </details>
 
               <details class="py-8 group">
                 <summary class="flex items-center justify-between cursor-pointer">
@@ -347,10 +305,58 @@
                 </summary>
           
                 <p class="mt-4 leading-relaxed text-white">
-                  You must register for the hackathon by filling out the google form: <a href="https://forms.gle/isj9AUDTWPJQf3V68" class="text-sky-300 hover:text-sky-400 display inline">https://forms.gle/isj9AUDTWPJQf3V68</a> and join the discord server to receive more news and updates: <a href="https://discord.gg/6UUTPbr5eW" class="text-sky-300 hover:text-sky-400 display inline">https://discord.gg/6UUTPbr5eW</a>   
+                  You must register for the hackathon by filling out the google form: <a href="https://forms.gle/isj9AUDTWPJQf3V68" target="_blank" class="text-sky-300 hover:text-sky-400 display inline">https://forms.gle/isj9AUDTWPJQf3V68</a> and join the discord server to receive more news and updates: <a href="https://discord.gg/6UUTPbr5eW" target="_blank" class="text-sky-300 hover:text-sky-400 display inline">https://discord.gg/6UUTPbr5eW</a>   
                 </p>
               </details>
-              <div class="my-2 divide-y divide-gray-100"></div>
+
+              <details class="py-8 group">
+                <summary class="flex items-center justify-between cursor-pointer">
+                  <h5 class="text-lg font-medium text-sky-400">
+                    What are the judging criteria?
+                  </h5>
+          
+                  <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+          
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </span>
+                </summary>
+          
+                <p class="mt-4 leading-relaxed text-white">
+                  <ul>
+                    <li>Design and implementation</li>
+                    <li>Live pitch</li>
+                    <li>Social impact: how much does the project solve a problem</li>
+                    <li>Technical complexity: how difficult is the project to develop and how technically advanced is it</li>
+                  </ul>
+                </p>
+              </details>
 
             </div>
           </div>
@@ -364,7 +370,7 @@
           <div class="max-w-screen-xl px-4 py-36 mx-auto sm:px-6 lg:px-8">
             <div class="max-w-lg mx-auto text-center">
               <h2 class="text-3xl font-bold sm:text-4xl">Prizes</h2>
-        
+              <div class="mt-5">Coming soon</div>
             </div>
 
 
@@ -390,7 +396,7 @@
                   </div>
                   <div class="order-1 rounded-lg w-5/12 px-6 py-4">
                     <h3 class="mb-3 font-bold text-sky-300 text-xl">Opening Ceremony</h3>
-                    <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">Monday 27th June 12.40 - location coming soon. Introduces the hackathon and is the time for you to form a team if you have not already and start sharing ideas.</p>
                   </div>
                 </div>
             
@@ -402,7 +408,7 @@
                   </div>
                   <div class="order-1 rounded-lg w-5/12 px-6 py-4">
                     <h3 class="mb-3 font-bold text-sky-300 text-xl">Hacking Starts</h3>
-                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Monday 27th June 4.15. This is the time where you can start working on your projects.</p>
                   </div>
                 </div>
                 
@@ -414,7 +420,7 @@
                   </div>
                   <div class="order-1 rounded-lg w-5/12 px-6 py-4">
                     <h3 class="mb-3 font-bold text-sky-300 text-xl">Meeting</h3>
-                    <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">TBC</p>
                   </div>
                 </div>
             
@@ -426,7 +432,7 @@
                   </div>
                   <div class="order-1 rounded-lg w-5/12 px-6 py-4">
                     <h3 class="mb-3 font-bold text-sky-300 text-xl">Meeting</h3>
-                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">TBC</p>
                   </div>
                 </div>
 
@@ -437,7 +443,7 @@
                   </div>
                   <div class="order-1 rounded-lg w-5/12 px-6 py-4">
                     <h3 class="mb-3 font-bold text-sky-300 text-xl">Hacking Ends</h3>
-                    <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">Friday 1st July 2.15. No more working on your project after this time.</p>
                   </div>
                 </div>
 
@@ -448,7 +454,7 @@
                   </div>
                   <div class="order-1 rounded-lg w-5/12 px-6 py-4">
                     <h3 class="mb-3 font-bold text-sky-300 text-xl">Closing Ceremony</h3>
-                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Friday 1st July 4.15. Live pitches, final judging and of course prize giving!</p>
                   </div>
                 </div>
               </div>
@@ -458,6 +464,7 @@
         </section>
       </section>
 
+      <!--
       <section id="projects" class="py-8">
         <section class="text-white">
           <div class="max-w-screen-xl px-12 py-36 mx-auto sm:px-8 lg:px-12">
@@ -730,15 +737,17 @@
         </section>
       </section>
 
-      <section id="judges" class="py-8">
+      
+            
+
+
+  <section id="judges" class="py-8">
         <section class="text-white">
           <div class="max-w-screen-xl px-12 pt-12 mx-auto sm:px-8 lg:px-12">
             <div class="max-w-lg mx-auto text-center">
               <h2 class="text-3xl font-bold sm:text-4xl">Judges</h2>
             </div>
-            
-
-<section class="text-gray-600 body-font">
+            <section class="text-gray-600 body-font">
   <div class="container px-5 pb-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
     </div>
@@ -780,7 +789,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
           </div>
         </section>
@@ -789,7 +798,7 @@
       <footer class="text-center text-white">
 
         <div class="text-center p-5">
-          © 2022 Copyright:
+          © 2022 Copyright
           <a class="text-whitehite" href="https://tailwind-elements.com/">SPS Hacks</a>
         </div>
       </footer>
